@@ -1,0 +1,41 @@
+{
+  "name": "formio-plugin",
+  "version": "1.0.8",
+  "description": "Test FormIO plugin",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "files": [
+    "dist",
+    "components"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "test": "echo \"Not implemented\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jowusu837/formio-plugin.git"
+  },
+  "keywords": [
+    "formio",
+    "form",
+    "plugin"
+  ],
+  "author": "Victor Owusu <jowusu837@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jowusu837/formio-plugin/issues"
+  },
+  "homepage": "https://github.com/jowusu837/formio-plugin#readme",
+  "dependencies": {
+    "formiojs": "^4.21.6"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^3.20.0"
+  }
+}
