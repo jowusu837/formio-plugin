@@ -5,7 +5,7 @@ A custom FormIO plugin that extends FormIO's functionality.
 ## Installation
 
 ```bash
-npm install formio-plugin
+npm install @jowusu837/formio-plugin
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ import FormioPlugin from 'formio-plugin';
 You can also use the plugin directly from jsDelivr:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/formio-plugin@latest/dist/index.js"></script>
+<script src="https://jowusu837.github.io/formio-plugin/dist/index.umd.js"></script>
 ```
 
 ## Development

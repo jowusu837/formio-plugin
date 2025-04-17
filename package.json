@@ -1,6 +1,6 @@
 {
-  "name": "formio-plugin",
-  "version": "1.0.8",
+  "name": "@jowusu837/formio-plugin",
+  "version": "1.0.1",
   "description": "Test FormIO plugin",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -18,6 +18,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jowusu837/formio-plugin.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "formio",
