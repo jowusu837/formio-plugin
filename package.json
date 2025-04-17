@@ -1,6 +1,6 @@
 {
   "name": "@jowusu837/formio-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Test FormIO plugin",
   "type": "module",
   "main": "dist/index.cjs.js",
