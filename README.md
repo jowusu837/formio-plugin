@@ -16,23 +16,17 @@ import FormioPlugin from '@jowusu837/formio-plugin';
 // The plugin will automatically register with FormIO
 ```
 
-## CDN Usage
-
 You can use the plugin via CDN:
 
-### GitHub Pages (Recommended)
 ```html
-<script src="https://jowusu837.github.io/formio-plugin/dist/index.umd.js"></script>
-```
+<!-- Load FormIO first -->
+<script src="https://cdn.form.io/formiojs/formio.full.min.js"></script>
 
-### jsDelivr
-```html
-<script src="https://cdn.jsdelivr.net/npm/@jowusu837/formio-plugin@latest/dist/index.umd.js"></script>
-```
+<!-- Load latest plugin version -->
+<script src="https://cdn.jsdelivr.net/gh/jowusu837/formio-plugin@latest/dist/index.umd.js"></script>
 
-### unpkg
-```html
-<script src="https://unpkg.com/@jowusu837/formio-plugin@latest/dist/index.umd.js"></script>
+<!-- Or load a specific version -->
+<script src="https://cdn.jsdelivr.net/gh/jowusu837/formio-plugin@v1.6.0/dist/index.umd.js"></script>
 ```
 
 ## Development
